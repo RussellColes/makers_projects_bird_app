@@ -1,0 +1,28 @@
+.bird-sighting-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: centre;
+  gap: 20px;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  max-height: 90vh;
+}
+
+.grid-container-bird-sighting {
+  margin: 10px;
+  background: linear-gradient(135deg, #3d3564, #448db9);
+  border: 2px #c95640 solid;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.birdSighting-title-link {
+  color: white;
+}
+
+.bird-sighting-card {
+  display: flex;
+  flex-direction: column;
+}

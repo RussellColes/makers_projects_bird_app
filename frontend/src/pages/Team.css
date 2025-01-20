@@ -1,0 +1,19 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.team-member {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.team-member a {
+  color: white;
+  text-decoration: underline;
+  display: block;
+  margin-top: 5px;
+}

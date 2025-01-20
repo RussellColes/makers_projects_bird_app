@@ -1,0 +1,18 @@
+.sightings-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 700px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #add8e6;
+}

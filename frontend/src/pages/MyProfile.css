@@ -1,0 +1,96 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.user-container {
+  background: linear-gradient(135deg, #3d3564, #448db9);
+  border: 2px white solid;
+  padding: 50px 60px;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  input[type="email"],
+  input[type="text"],
+  input[type="submit"],
+  input[type="password"] {
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ab6569;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+}
+
+.button-container {
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.button-container button {
+  background-color: #c95640 !important;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  background: linear-gradient(135deg, #3d3564, #448db9);
+  border: 2px white solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  flex: 0 0 calc(40% - 100px);
+  height: 850px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.recipe-card button {
+  background-color: #c95640 !important;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.plucker-logo-my-profile img {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #c95640;
+  overflow: hidden;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

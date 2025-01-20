@@ -1,0 +1,11 @@
+**/*__pycache__*
+.vscode
+.pytest_cache
+**/*venv*
+.coverage
+.env
+uploads/*
+!uploads/default_photo.webp
+!uploads/profile
+uploads/profile/*
+!uploads/profile/secret.txt

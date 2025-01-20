@@ -1,0 +1,10 @@
+body {
+    background-color: #4f97a3;
+    color:white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+label {
+    margin-bottom: 3px;
+    display: block;
+}

@@ -1,0 +1,21 @@
+.upload-photo {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.upload-photo button {
+  background-color: #c95640 !important;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px
+}
+
+.file { 
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
